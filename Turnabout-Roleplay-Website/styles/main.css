@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: url('../images/courthouse.png') no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100%
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+main p {
+	max-width: 40em;
+}
+
+header {
+	background-color: #8085F6;
+	padding: .5em;
+}
+
+header h1 {
+	margin-right: auto;
+	margin-left: auto;
+	padding: .5em;
+}
+
+header div {
+	float: left;
+	padding-right: 3em;
+}
+
+header div p {
+	padding-left: 2em;
+}
+
+header div h1 {
+	font-size: 110%;
+}
+
+aside {
+	width: 25%;
+	float: right;
+}
+
+aside ul li {
+	list-style-type: none;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-right: .5em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+aside ul li a:hover {
+	text-decoration: underline;
+}
+
+aside ul li a:focus {
+	text-decoration: underline;
+}
+
+.current {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+section {
+	width: 75%;
+	float: right;
+}
+
+footer {
+	background-color: #8085F6;
+	clear: both;
+}
+
+section img {
+	float: right;
+	padding: 2em;
+	display: block;
+}
+
+section ul {
+	list-style-position: inside;
+}
+
+section ol {
+	list-style-position: inside;
+}
+
+footer p {
+	text-align: center;
+}
+
+main {
+	border-top-width: .25em;
+	border-top-style: solid;
+	border-top-color: black;
+	padding: 2%;
+}
+
+.space_after {
+	padding-bottom: 1em;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+section a {
+	text-decoration: underline;
+}
+
+section p {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+#phoenix {
+	max-width: 140px;
+	width: 100%;
+}
