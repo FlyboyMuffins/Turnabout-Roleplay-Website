@@ -7,6 +7,14 @@
 	<link rel = "shortcut icon" href = "../images/objection.png">
 	<link rel = "stylesheet" href = "../styles/normalize.css">
 	<link rel = "stylesheet" href = "../styles/main.css">
+  <link rel="stylesheet" href="../styles/slicknav.css">
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="../js/jquery.slicknav.min.js"></script>
+  <script type="text/javascript">
+		$(document).ready(function() {
+			$('#nav_menu').slicknav({prependTo:'#mobile_menu'});
+		});
+    </script>
 </head>
 <body>
 	<header>
@@ -16,14 +24,17 @@
 		</div>
 		<h1>Downloads</h1>
 	</header>
+	<nav id="mobile_menu"></nav>
 	<main>
 		<aside>
-			<ul>
-				<li><p><a href = "../index.html">Home</a></p></li>
-				<li><p><a href = "downloads.html" class = "current">Downloads</a></p></li>
-				<li><p><a href = "credits.html">Disclaimer and Image Credits</a></p></li>
-				<li><p><a href = "the-team.html">The Team</a></p></li>
-			</ul>
+			<nav id="nav_menu">
+				<ul>
+					<li><p><a href = "../index.html">Home</a></p></li>
+					<li><p><a href = "downloads.html" class = "current">Downloads</a></p></li>
+					<li><p><a href = "credits.html">Disclaimer and Image Credits</a></p></li>
+					<li><p><a href = "the-team.html">The Team</a></p></li>
+				</ul>
+			</nav>
 		</aside>
 		<section>
 			<h1>Current Downloads</h1>

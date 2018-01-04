@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+#mobile_menu {
+	display: none;
+}
+
 html {
 	background: url('../images/courthouse.png') no-repeat center center fixed;
 	background-size: cover;
@@ -130,4 +134,46 @@ section p {
 #phoenix {
 	max-width: 140px;
 	width: 100%;
+}
+
+@media only screen and (max-width: 959px) {
+	h1 {
+		font-size: 125%;
+	}
+	h2 {
+		font-size: 120%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	h1 {
+		font-size: 120%;
+	}
+	h2 {
+		font-size: 115%;
+	}
+	main img {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	header {
+		text-align: center;
+	}
+	h1 {
+		font-size: 115%;
+	}
+	h2 {
+		font-size: 110%;
+	}
+	p {
+		font-size: 95%;
+	}
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
 }
