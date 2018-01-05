@@ -21,10 +21,6 @@ body {
 	background-color: white;
 }
 
-main p {
-	max-width: 40em;
-}
-
 header {
 	background-color: #8085F6;
 	padding: .5em;
@@ -129,6 +125,14 @@ section a {
 section p {
 	padding-top: .5em;
 	padding-bottom: .5em;
+}
+
+.right_align {
+	text-align: right;
+}
+
+.left_align {
+	text-align: left;
 }
 
 #phoenix {
